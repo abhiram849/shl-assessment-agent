@@ -33,6 +33,25 @@ The API follows the exact schema specified in the SHL internship assignment.
 
 ---
 
+## Deployment
+
+Public API Base URL:
+
+https://shl-assessment-agent-production-0d84.up.railway.app
+
+### Available Endpoints
+
+- Health Check  
+  https://shl-assessment-agent-production-0d84.up.railway.app/health
+
+- Swagger API Docs  
+  https://shl-assessment-agent-production-0d84.up.railway.app/docs
+
+- Chat Endpoint  
+  POST https://shl-assessment-agent-production-0d84.up.railway.app/chat
+
+---
+
 ## Project Structure
 
 ```text
@@ -44,6 +63,3 @@ app/
 
 scripts/
 └── scrape_catalog.py
-
-
-Diploy Link :- shl-assessment-agent-production-0d84.up.railway.app
